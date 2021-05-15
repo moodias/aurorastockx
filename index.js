@@ -2,7 +2,7 @@ let stockx = require('./stockx');
 let Discord = require('discord.js');
 let client = new Discord.Client();
 
-let TOKEN = 'YOUR_TOKEN_HERE';
+let TOKEN = 'ODQyODg3NjQwOTczMDQ5ODk4.YJ72SQ.KlKCNUiSLJhsVB7LI7N2lYt-JuY';
 
 client.on('ready', () => {
 	console.log(`Logged in as: ${client.user.tag}!`);
